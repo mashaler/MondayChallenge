@@ -12,7 +12,7 @@
 		CCAFDCC32A1B3E74004341EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAFDCC22A1B3E74004341EB /* ViewController.swift */; };
 		CCAFDCC62A1B3E74004341EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAFDCC42A1B3E74004341EB /* Main.storyboard */; };
 		CCAFDCC82A1B3E75004341EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAFDCC72A1B3E75004341EB /* Assets.xcassets */; };
-		CCAFDCCB2A1B3E75004341EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAFDCC92A1B3E75004341EB /* LaunchScreen.storyboard */; };
+		CCAFDCD72A1B64C9004341EB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAFDCD62A1B64C9004341EB /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +22,8 @@
 		CCAFDCC22A1B3E74004341EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCAFDCC52A1B3E74004341EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCAFDCC72A1B3E75004341EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CCAFDCCA2A1B3E75004341EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCAFDCCC2A1B3E75004341EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAFDCD62A1B64C9004341EB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +59,9 @@
 				CCAFDCBE2A1B3E74004341EB /* AppDelegate.swift */,
 				CCAFDCC02A1B3E74004341EB /* SceneDelegate.swift */,
 				CCAFDCC22A1B3E74004341EB /* ViewController.swift */,
+				CCAFDCD62A1B64C9004341EB /* Launch Screen.storyboard */,
 				CCAFDCC42A1B3E74004341EB /* Main.storyboard */,
 				CCAFDCC72A1B3E75004341EB /* Assets.xcassets */,
-				CCAFDCC92A1B3E75004341EB /* LaunchScreen.storyboard */,
 				CCAFDCCC2A1B3E75004341EB /* Info.plist */,
 			);
 			path = MondayChallenge;
@@ -125,7 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCAFDCCB2A1B3E75004341EB /* LaunchScreen.storyboard in Resources */,
+				CCAFDCD72A1B64C9004341EB /* Launch Screen.storyboard in Resources */,
 				CCAFDCC82A1B3E75004341EB /* Assets.xcassets in Resources */,
 				CCAFDCC62A1B3E74004341EB /* Main.storyboard in Resources */,
 			);
@@ -153,14 +153,6 @@
 				CCAFDCC52A1B3E74004341EB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CCAFDCC92A1B3E75004341EB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCAFDCCA2A1B3E75004341EB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
